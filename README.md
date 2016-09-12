@@ -15,7 +15,7 @@ npm install bucklescript -g
 
 
 ## Use in Node
-```
+```JavaScript
 var bucklescript = require("bucklescript")
 
 var compiledJavascript = bucklescript.compile('let test = 1')
