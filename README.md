@@ -36,11 +36,6 @@ console.log(testvar)
 
 ```
 
-## Use in CommandLine
-```
-bsc -c file.ocaml
-
-```
 
 
 
