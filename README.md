@@ -10,11 +10,11 @@ watch as it instantly compiles to JavaScript shown in the right panel.
 
 ## Installing BuckleScript
 ```
-npm install bucklescript
+npm install bucklescript -g
 ```
 
 
-## Installing Usage
+## Use in Node
 ```
 var bucklescript = require("bucklescript")
 
@@ -23,6 +23,14 @@ var compiledJavascript = bucklescript.compile('let test = 1')
 console.log(compiledJavascript)
 
 ```
+
+## Use in CommandLine
+```
+bsc -c file.ocaml
+
+```
+
+
 
 
 ## Documentation
