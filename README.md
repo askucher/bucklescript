@@ -12,7 +12,7 @@ watch as it instantly compiles to JavaScript shown in the right panel.
 
 ## Installing BuckleScript
 ```
-npm install bucklescript -g
+npm install bucklescript
 ```
 
 
