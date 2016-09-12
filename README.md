@@ -1,5 +1,7 @@
 # [BuckleScript](http://bloomberg.github.io/bucklescript/)
 
+Without POSTINSTALL. Just works
+
 A JavaScript backend for [OCaml](https://ocaml.org/) focused on smooth integration and clean generated code.
 
 ## Try BuckleScript
