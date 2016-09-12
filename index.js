@@ -11,8 +11,18 @@ var compile = function(code) {
       return result
 }
 
+var bseval = function(code) {
+     var result = exports.compile(code)
+     var code = JSON.parse(result).js_code
+     if(typeof code !== "undefined") {
+        return eval(code);
+     }
+     return result
+}
+
 module.exports = {
 
-   compile: compile
+   compile: compile,
+   eval: bseval
 
 }

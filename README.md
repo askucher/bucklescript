@@ -16,13 +16,23 @@ npm install bucklescript -g
 ```
 
 
-## Use in Node
+## Compile String in Node
 ```JavaScript
 var bucklescript = require("bucklescript")
 
 var compiledJavascript = bucklescript.compile('let test = 1')
 
 console.log(compiledJavascript)
+
+```
+
+## Compile and Eval in Node
+```JavaScript
+var bucklescript = require("bucklescript")
+
+var testvar = bucklescript.eval('let test = 1')
+
+console.log(testvar)
 
 ```
 
